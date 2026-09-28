@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sagnik Saha | Robotics & AI Student</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0a0a0a;
+        }
+
+        .glass {
+            background: rgba(17, 17, 17, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid #242424;
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .card-hover {
+            transition: 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-6px);
+            border-color: #38bdf8;
+        }
+    </style>
+</head>
+
+<body class="text-white font-sans">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 w-full z-50 glass">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+            <h1 class="text-2xl font-bold">
+                Portfolio<span class="text-sky-400">.</span>
+            </h1>
+
+            <div class="hidden md:flex gap-8 text-gray-300">
+                <a href="#about" class="hover:text-sky-400">About</a>
+                <a href="#education" class="hover:text-sky-400">Education</a>
+                <a href="#focus" class="hover:text-sky-400">Focus</a>
+                <a href="#skills" class="hover:text-sky-400">Skills</a>
+                <a href="#projects" class="hover:text-sky-400">Projects</a>
+                <a href="#career" class="hover:text-sky-400">Career</a>
+                <a href="#contact" class="hover:text-sky-400">Contact</a>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="min-h-screen flex items-center pt-24">
+
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+            <!-- LEFT -->
+            <div>
+
+                <p class="text-sky-400 mb-4">
+                    Robotics & Artificial Intelligence
+                </p>
+
+                <h1 class="text-5xl md:text-7xl font-bold leading-tight">
+                    Hi, I'm
+                    <span class="gradient-text">
+                        Sagnik Saha
+                    </span>
+                </h1>
+
+                <p class="text-gray-400 text-lg mt-6 leading-8 max-w-xl">
+                    B.Tech Robotics & Artificial Intelligence student
+                    focused on programming, web development, problem solving
+                    and building practical technology projects.
+                </p>
+
+                <p class="text-gray-500 mt-4 leading-7 max-w-xl">
+                    I enjoy learning through projects and turning concepts
+                    into working applications. My long-term goal is to grow
+                    into an AI/GenAI engineer and build useful AI-powered
+                    products.
+                </p>
+
+                <div class="mt-8 flex gap-4">
+
+                    <a href="#projects"
+                        class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-lg font-semibold">
+                        View Projects
+                    </a>
+
+                    <a href="#contact"
+                        class="border border-gray-700 hover:border-sky-400 px-6 py-3 rounded-lg">
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT PROFILE CARD -->
+            <div class="glass rounded-2xl p-8">
+
+                <!-- YOUR PHOTO -->
+                <div class="w-44 h-44 rounded-full overflow-hidden
+                            border-4 border-sky-400/70
+                            shadow-2xl shadow-sky-500/20
+                            mx-auto">
+
+                    <img src="profile.webp"
+                        alt="Sagnik Saha"
+                        class="w-full h-full object-cover">
+
+                </div>
+
+
+                <h2 class="text-2xl font-bold text-center mt-6">
+                    Sagnik Saha
+                </h2>
+
+                <p class="text-center text-gray-400 mt-2">
+                    Robotics & AI Student
+                </p>
+
+
+                <!-- QUICK INFO -->
+                <div class="grid grid-cols-2 gap-4 mt-8">
+
+                    <div class="bg-black/40 rounded-xl p-4 text-center">
+
+                        <p class="text-sky-400 font-bold">
+                            B.Tech
+                        </p>
+
+                        <p class="text-gray-500 text-sm mt-1">
+                            Robotics & AI
+                        </p>
+
+                    </div>
+
+
+                    <div class="bg-black/40 rounded-xl p-4 text-center">
+
+                        <p class="text-sky-400 font-bold">
+                            2025–2029
+                        </p>
+
+                        <p class="text-gray-500 text-sm mt-1">
+                            Batch
+                        </p>
+
+                    </div>
+
+
+                    <div class="bg-black/40 rounded-xl p-4 text-center">
+
+                        <p class="text-sky-400 font-bold">
+                            7.8
+                        </p>
+
+                        <p class="text-gray-500 text-sm mt-1">
+                            CGPA
+                        </p>
+
+                    </div>
+
+
+                    <div class="bg-black/40 rounded-xl p-4 text-center">
+
+                        <p class="text-sky-400 font-bold">
+                            6+
+                        </p>
+
+                        <p class="text-gray-500 text-sm mt-1">
+                            Projects
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="py-24 bg-[#0d0d0d]">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <p class="text-sky-400 mb-3">
+                ABOUT ME
+            </p>
+
+            <h2 class="text-4xl font-bold mb-8">
+                More Than Just a Student
+            </h2>
+
+
+            <div class="grid md:grid-cols-2 gap-10">
+
+                <div>
+
+                    <p class="text-gray-300 leading-8">
+                        I am Sagnik Saha, a B.Tech student pursuing
+                        Robotics & Artificial Intelligence at CGC Jhanjeri.
+                        I am interested in programming, web development,
+                        artificial intelligence and practical software
+                        projects.
+                    </p>
+
+                    <p class="text-gray-400 leading-8 mt-5">
+                        My approach to learning is simple: understand the
+                        fundamentals, write the code, build something with
+                        it and then improve it.
+                    </p>
+
+                    <p class="text-gray-400 leading-8 mt-5">
+                        I enjoy applying programming concepts through
+                        projects that demonstrate how technology can be
+                        used to solve practical problems.
+                    </p>
+
+                    <p class="text-gray-400 leading-8 mt-5">
+                        My projects include healthcare assistance, crop
+                        disease detection, image editing, library
+                        management, games and ATM simulation.
+                    </p>
+
+                </div>
+
+
+                <div class="space-y-5">
+
+                    <div class="glass p-6 rounded-xl">
+
+                        <h3 class="text-xl font-semibold text-sky-400">
+                            Learning Mindset
+                        </h3>
+
+                        <p class="text-gray-400 mt-3 leading-7">
+                            I prefer learning concepts by implementing them
+                            in real projects and gradually improving my code.
+                        </p>
+
+                    </div>
+
+
+                    <div class="glass p-6 rounded-xl">
+
+                        <h3 class="text-xl font-semibold text-sky-400">
+                            Problem Solving
+                        </h3>
+
+                        <p class="text-gray-400 mt-3 leading-7">
+                            I am working on improving programming logic,
+                            algorithms and problem-solving skills.
+                        </p>
+
+                    </div>
+
+
+                    <div class="glass p-6 rounded-xl">
+
+                        <h3 class="text-xl font-semibold text-sky-400">
+                            Builder Mindset
+                        </h3>
+
+                        <p class="text-gray-400 mt-3 leading-7">
+                            I enjoy turning ideas into functional projects
+                            and using those projects to understand
+                            technology better.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section id="education" class="py-24">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <p class="text-sky-400 mb-3">
+                EDUCATION
+            </p>
+
+            <h2 class="text-4xl font-bold mb-12">
+                Academic Journey
+            </h2>
+
+
+            <div class="glass rounded-2xl p-8">
+
+                <div class="grid md:grid-cols-3 gap-8">
+
+                    <div>
+
+                        <p class="text-gray-500 text-sm">
+                            DEGREE
+                        </p>
+
+                        <h3 class="text-2xl font-bold mt-2">
+                            B.Tech
+                        </h3>
+
+                        <p class="text-sky-400 mt-2">
+                            Robotics & Artificial Intelligence
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <p class="text-gray-500 text-sm">
+                            INSTITUTION
+                        </p>
+
+                        <h3 class="text-xl font-semibold mt-2">
+                            CGC Jhanjeri
+                        </h3>
+
+                        <p class="text-gray-400 mt-2">
+                            Chandigarh Engineering College
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <p class="text-gray-500 text-sm">
+                            BATCH
+                        </p>
+
+                        <h3 class="text-xl font-semibold mt-2">
+                            2025 – 2029
+                        </h3>
+
+                        <p class="text-gray-400 mt-2">
+                            Undergraduate Student
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="border-t border-gray-800 mt-8 pt-8">
+
+                    <div class="grid md:grid-cols-3 gap-6">
+
+                        <div class="bg-black/30 p-5 rounded-xl">
+
+                            <p class="text-gray-500 text-sm">
+                                CGPA
+                            </p>
+
+                            <p class="text-3xl font-bold text-sky-400 mt-2">
+                                7.8
+                            </p>
+
+                        </div>
+
+
+                        <div class="bg-black/30 p-5 rounded-xl">
+
+                            <p class="text-gray-500 text-sm">
+                                CLASS 12
+                            </p>
+
+                            <p class="text-3xl font-bold mt-2">
+                                67%
+                            </p>
+
+                        </div>
+
+
+                        <div class="bg-black/30 p-5 rounded-xl">
+
+                            <p class="text-gray-500 text-sm">
+                                CLASS 10
+                            </p>
+
+                            <p class="text-3xl font-bold mt-2">
+                                70%
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <p class="text-gray-400 leading-7 mt-8">
+
+                    My academic background in Robotics and Artificial
+                    Intelligence gives me an opportunity to explore
+                    programming, technology and problem solving.
+
+                    Alongside my coursework, I am focused on developing
+                    practical programming skills and building projects
+                    that strengthen my understanding of software development.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CURRENT FOCUS -->
+    <section id="focus" class="py-24 bg-[#0d0d0d]">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <p class="text-sky-400 mb-3">
+                CURRENT FOCUS
+            </p>
+
+            <h2 class="text-4xl font-bold">
+                What I'm Working On
+            </h2>
+
+            <p class="text-gray-400 mt-5 max-w-2xl leading-7">
+
+                My current goal is to build strong fundamentals first
+                and gradually move toward advanced AI-oriented development.
+
+            </p>
+
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+
+
+                <div class="glass p-7 rounded-2xl card-hover">
+
+                    <h3 class="text-xl font-semibold">
+                        Programming Fundamentals
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        Strengthening programming concepts, object-oriented
+                        programming and clean coding practices.
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-7 rounded-2xl card-hover">
+
+                    <h3 class="text-xl font-semibold">
+                        Problem Solving
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        Practicing algorithms, data structures and logical
+                        problem solving for technical interviews.
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-7 rounded-2xl card-hover">
+
+                    <h3 class="text-xl font-semibold">
+                        Web Development
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        Creating responsive and modern web interfaces using
+                        HTML, CSS and Tailwind CSS.
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-7 rounded-2xl card-hover">
+
+                    <h3 class="text-xl font-semibold">
+                        AI Project Building
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        Exploring how programming and artificial intelligence
+                        can be combined to create useful applications.
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-7 rounded-2xl card-hover">
+
+                    <h3 class="text-xl font-semibold">
+                        Project Portfolio
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        Building practical projects that demonstrate
+                        programming and problem-solving skills.
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-7 rounded-2xl card-hover">
+
+                    <h3 class="text-xl font-semibold">
+                        Career Preparation
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        Preparing for internships, placements and future
+                        software engineering opportunities.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="py-24">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <p class="text-sky-400 mb-3">
+                TECHNICAL SKILLS
+            </p>
+
+            <h2 class="text-4xl font-bold">
+                Technologies I Work With
+            </h2>
+
+
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-5 mt-12">
+
+                <div class="glass p-6 rounded-xl text-center card-hover">
+
+                    <h3 class="font-semibold text-lg">
+                        HTML
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-2">
+                        Web Structure
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-6 rounded-xl text-center card-hover">
+
+                    <h3 class="font-semibold text-lg">
+                        CSS
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-2">
+                        Styling
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-6 rounded-xl text-center card-hover">
+
+                    <h3 class="font-semibold text-lg">
+                        Python
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-2">
+                        Programming
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-6 rounded-xl text-center card-hover">
+
+                    <h3 class="font-semibold text-lg">
+                        Java
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-2">
+                        Programming
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-6 rounded-xl text-center card-hover">
+
+                    <h3 class="font-semibold text-lg">
+                        Tailwind CSS
+                    </h3>
+
+                    <p class="text-gray-500 text-sm mt-2">
+                        UI Development
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="py-24 bg-[#0d0d0d]">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <p class="text-sky-400 mb-3">
+                PROJECTS
+            </p>
+
+            <h2 class="text-4xl font-bold">
+                Things I've Built
+            </h2>
+
+            <p class="text-gray-400 mt-5 max-w-2xl leading-7">
+                My projects focus on applying programming concepts to
+                practical problems and gaining experience through
+                implementation.
+            </p>
+
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+
+
+                <!-- AROGYAMITRA -->
+                <div class="glass rounded-2xl p-7 card-hover">
+
+                    <span class="text-sky-400 text-sm">
+                        AI / HEALTHCARE
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-3">
+                        ArogyaMitra AI
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        A healthcare-focused AI project designed to provide
+                        conversational assistance and structured general
+                        guidance based on user-provided information.
+                    </p>
+
+                </div>
+
+
+                <!-- CROP -->
+                <div class="glass rounded-2xl p-7 card-hover">
+
+                    <span class="text-sky-400 text-sm">
+                        AGRICULTURE / AI
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-3">
+                        Crop Disease Detection
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        A project focused on identifying crop defects and
+                        providing information related to possible diseases,
+                        prevention and crop care.
+                    </p>
+
+                </div>
+
+
+                <!-- PHOTO EDITOR -->
+                <div class="glass rounded-2xl p-7 card-hover">
+
+                    <span class="text-sky-400 text-sm">
+                        IMAGE / AI
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-3">
+                        AI Photo Editor
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        An image editing project exploring how AI-oriented
+                        functionality can be used to improve and modify
+                        digital images.
+                    </p>
+
+                </div>
+
+
+                <!-- LIBRARY -->
+                <div class="glass rounded-2xl p-7 card-hover">
+
+                    <span class="text-sky-400 text-sm">
+                        PYTHON
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-3">
+                        Library Management System
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        A management application created to practice
+                        programming logic, data handling and basic
+                        application structure.
+                    </p>
+
+                </div>
+
+
+                <!-- ROCK PAPER -->
+                <div class="glass rounded-2xl p-7 card-hover">
+
+                    <span class="text-sky-400 text-sm">
+                        PYTHON
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-3">
+                        Rock Paper Scissors
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        An interactive game developed to strengthen
+                        programming fundamentals, conditional logic
+                        and user-input handling.
+                    </p>
+
+                </div>
+
+
+                <!-- ATM -->
+                <div class="glass rounded-2xl p-7 card-hover">
+
+                    <span class="text-sky-400 text-sm">
+                        JAVA
+                    </span>
+
+                    <h3 class="text-2xl font-bold mt-3">
+                        ATM Machine
+                    </h3>
+
+                    <p class="text-gray-400 mt-4 leading-7">
+                        A Java-based ATM simulation created to practice
+                        programming fundamentals, user input, conditions
+                        and application flow.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CAREER -->
+    <section id="career" class="py-24">
+
+        <div class="max-w-5xl mx-auto px-6 text-center">
+
+            <p class="text-sky-400 mb-3">
+                CAREER GOAL
+            </p>
+
+            <h2 class="text-4xl md:text-5xl font-bold">
+                Building Toward an AI Engineering Career
+            </h2>
+
+            <p class="text-gray-400 text-lg leading-8 mt-8">
+
+                My long-term goal is to become an AI/GenAI engineer
+                and work on products that use intelligent technology
+                to solve meaningful real-world problems.
+
+            </p>
+
+            <p class="text-gray-400 leading-8 mt-5">
+
+                I am currently focused on building a strong foundation
+                in programming, improving my problem-solving ability,
+                creating practical projects and preparing myself for
+                internships and future software engineering opportunities.
+
+            </p>
+
+
+            <div class="grid md:grid-cols-3 gap-5 mt-12 text-left">
+
+
+                <div class="glass p-6 rounded-xl">
+
+                    <p class="text-sky-400 font-semibold">
+                        Short Term
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-2">
+                        Build Strong Fundamentals
+                    </h3>
+
+                    <p class="text-gray-500 mt-3">
+                        Improve programming, problem solving and
+                        project development skills.
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-6 rounded-xl">
+
+                    <p class="text-sky-400 font-semibold">
+                        Medium Term
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-2">
+                        Gain Industry Experience
+                    </h3>
+
+                    <p class="text-gray-500 mt-3">
+                        Gain internship experience and prepare for
+                        software and AI-oriented engineering roles.
+                    </p>
+
+                </div>
+
+
+                <div class="glass p-6 rounded-xl">
+
+                    <p class="text-sky-400 font-semibold">
+                        Long Term
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-2">
+                        Build AI Products
+                    </h3>
+
+                    <p class="text-gray-500 mt-3">
+                        Work on practical AI solutions and eventually
+                        contribute to innovative AI products.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-24 bg-[#0d0d0d]">
+
+        <div class="max-w-5xl mx-auto px-6 text-center">
+
+            <p class="text-sky-400 mb-3">
+                CONTACT
+            </p>
+
+            <h2 class="text-4xl font-bold">
+                Let's Connect
+            </h2>
+
+            <p class="text-gray-400 mt-5 max-w-xl mx-auto">
+                I am interested in learning, building projects and
+                connecting with people from the technology community.
+            </p>
+
+
+            <div class="flex flex-col md:flex-row justify-center gap-5 mt-10">
+
+                <a href="mailto:sagniksaha515@gmail.com"
+                    class="glass px-7 py-4 rounded-xl hover:border-sky-400">
+
+                    sagniksaha515@gmail.com
+
+                </a>
+
+
+                <a href="https://linkedin.com/in/sagnik-saha-b36a203a"
+                    target="_blank"
+                    class="glass px-7 py-4 rounded-xl hover:border-sky-400">
+
+                    LinkedIn Profile
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-800 py-8">
+
+        <div class="max-w-6xl mx-auto px-6 text-center">
+
+            <p class="text-gray-500">
+                © 2026 Sagnik Saha. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
